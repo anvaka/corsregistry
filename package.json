@@ -16,5 +16,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/corsregistry"
+  },
+  "dependencies": {
+    "cors": "^2.5.3",
+    "express": "^4.11.2",
+    "express-http-proxy": "^0.3.1"
   }
 }
