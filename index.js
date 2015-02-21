@@ -2,7 +2,12 @@
 var port = process.env.PORT || 3000;
 
 // Whitelist of CORS enabled domains:
-var whitelist = ['http://127.0.0.1:31337', 'http://npm.anvaka.com', 'http://www.yasiv.com'];
+var whitelist = [
+  'http://127.0.0.1:31337',
+  'http://0.0.0.0:31337',
+  'http://npm.anvaka.com',
+  'http://www.yasiv.com'
+];
 
 // Where to proxy requests:
 var endpoint = 'https://skimdb.npmjs.com';
