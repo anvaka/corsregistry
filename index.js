@@ -16,7 +16,7 @@ app.listen(port, function() {
 function createProxyRoute() {
   return proxy(endpoint, {
     forwardPath: function(req, res) {
-      res.set('Access-Control-Allow-Origin', 'http://npm.anvaka.com');
+      res.set('Access-Control-Allow-Origin', '*');
       return req.originalUrl;
     }
   });
