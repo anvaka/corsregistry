@@ -1,5 +1,10 @@
 # corsregistry
 
+**Note** I switched to npm search API and to https://npmjs.cf/ (npm mirror) - 
+both endpoints support CORS, so this repository is no longer needed.
+
+## Old readme
+
 CORS enabled npm registry proxy. Primary goal of this repository is to
 provide data to https://github.com/anvaka/npmgraph.an
 
